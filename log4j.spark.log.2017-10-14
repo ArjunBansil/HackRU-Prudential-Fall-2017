@@ -1,0 +1,252 @@
+17/10/14 14:12:01 INFO SparkContext: Running Spark version 1.6.2
+17/10/14 14:12:01 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/10/14 14:12:01 INFO SecurityManager: Changing view acls to: Arjun Bansil
+17/10/14 14:12:01 INFO SecurityManager: Changing modify acls to: Arjun Bansil
+17/10/14 14:12:01 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(Arjun Bansil); users with modify permissions: Set(Arjun Bansil)
+17/10/14 14:12:02 INFO Utils: Successfully started service 'sparkDriver' on port 49522.
+17/10/14 14:12:02 INFO Slf4jLogger: Slf4jLogger started
+17/10/14 14:12:02 INFO Remoting: Starting remoting
+17/10/14 14:12:02 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@127.0.0.1:49535]
+17/10/14 14:12:02 INFO Utils: Successfully started service 'sparkDriverActorSystem' on port 49535.
+17/10/14 14:12:02 INFO SparkEnv: Registering MapOutputTracker
+17/10/14 14:12:02 INFO SparkEnv: Registering BlockManagerMaster
+17/10/14 14:12:02 INFO DiskBlockManager: Created local directory at C:\Users\Arjun Bansil\AppData\Local\Temp\blockmgr-c8253160-af57-43ca-b117-f39b8b559478
+17/10/14 14:12:02 INFO MemoryStore: MemoryStore started with capacity 511.1 MB
+17/10/14 14:12:02 INFO SparkEnv: Registering OutputCommitCoordinator
+17/10/14 14:12:02 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+17/10/14 14:12:02 INFO SparkUI: Started SparkUI at http://127.0.0.1:4040
+17/10/14 14:12:02 INFO HttpFileServer: HTTP File server directory is C:\Users\Arjun Bansil\AppData\Local\Temp\spark-c4b3ef6e-7531-4800-beb9-18939fbd4efb\httpd-2e9c03ab-a941-4816-abba-c9d1f96ed42b
+17/10/14 14:12:02 INFO HttpServer: Starting HTTP Server
+17/10/14 14:12:02 INFO Utils: Successfully started service 'HTTP file server' on port 49540.
+17/10/14 14:12:02 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/spark-csv_2.11-1.3.0.jar at http://127.0.0.1:49540/jars/spark-csv_2.11-1.3.0.jar with timestamp 1508004722646
+17/10/14 14:12:02 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/commons-csv-1.1.jar at http://127.0.0.1:49540/jars/commons-csv-1.1.jar with timestamp 1508004722745
+17/10/14 14:12:02 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/univocity-parsers-1.5.1.jar at http://127.0.0.1:49540/jars/univocity-parsers-1.5.1.jar with timestamp 1508004722764
+17/10/14 14:12:02 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/sparklyr-1.6-2.10.jar at http://127.0.0.1:49540/jars/sparklyr-1.6-2.10.jar with timestamp 1508004722778
+17/10/14 14:12:02 INFO Executor: Starting executor ID driver on host localhost
+17/10/14 14:12:02 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 49573.
+17/10/14 14:12:02 INFO NettyBlockTransferService: Server created on 49573
+17/10/14 14:12:02 INFO BlockManagerMaster: Trying to register BlockManager
+17/10/14 14:12:02 INFO BlockManagerMasterEndpoint: Registering block manager localhost:49573 with 511.1 MB RAM, BlockManagerId(driver, localhost, 49573)
+17/10/14 14:12:02 INFO BlockManagerMaster: Registered BlockManager
+17/10/14 14:12:03 INFO HiveContext: Initializing execution hive, version 1.2.1
+17/10/14 14:12:03 INFO ClientWrapper: Inspected Hadoop version: 2.6.0
+17/10/14 14:12:03 INFO ClientWrapper: Loaded org.apache.hadoop.hive.shims.Hadoop23Shims for Hadoop version 2.6.0
+17/10/14 14:12:03 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+17/10/14 14:12:03 INFO ObjectStore: ObjectStore, initialize called
+17/10/14 14:12:03 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+17/10/14 14:12:03 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+17/10/14 14:12:03 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/14 14:12:04 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/14 14:12:06 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+17/10/14 14:12:07 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 14:12:07 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 14:12:08 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 14:12:08 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 14:12:09 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+17/10/14 14:12:09 INFO ObjectStore: Initialized ObjectStore
+17/10/14 14:12:09 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+17/10/14 14:12:09 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+17/10/14 14:12:09 INFO HiveMetaStore: Added admin role in metastore
+17/10/14 14:12:09 INFO HiveMetaStore: Added public role in metastore
+17/10/14 14:12:10 INFO HiveMetaStore: No user is added in admin role, since config is empty
+17/10/14 14:12:10 INFO HiveMetaStore: 0: get_all_databases
+17/10/14 14:12:10 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_all_databases	
+17/10/14 14:12:10 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+17/10/14 14:12:10 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+17/10/14 14:12:10 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 14:12:10 INFO SessionState: Created local directory: C:/Users/ARJUNB~1/AppData/Local/Temp/9824a679-41fb-44d2-a661-52f3454139e1_resources
+17/10/14 14:12:10 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/9824a679-41fb-44d2-a661-52f3454139e1
+17/10/14 14:12:10 INFO SessionState: Created local directory: C:/Users/Arjun Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/9824a679-41fb-44d2-a661-52f3454139e1
+17/10/14 14:12:10 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/9824a679-41fb-44d2-a661-52f3454139e1/_tmp_space.db
+17/10/14 14:12:10 INFO HiveContext: default warehouse location is C:\Users\Arjun Bansil\AppData\Local\rstudio\spark\Cache\spark-1.6.2-bin-hadoop2.6\tmp\hive
+17/10/14 14:12:10 INFO HiveContext: Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+17/10/14 14:12:10 INFO ClientWrapper: Inspected Hadoop version: 2.6.0
+17/10/14 14:12:10 INFO ClientWrapper: Loaded org.apache.hadoop.hive.shims.Hadoop23Shims for Hadoop version 2.6.0
+17/10/14 14:12:10 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+17/10/14 14:12:10 INFO ObjectStore: ObjectStore, initialize called
+17/10/14 14:12:11 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+17/10/14 14:12:11 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+17/10/14 14:12:11 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/14 14:12:11 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/14 14:12:11 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+17/10/14 14:12:12 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 14:12:12 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 14:12:12 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 14:12:12 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 14:12:12 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+17/10/14 14:12:12 INFO ObjectStore: Initialized ObjectStore
+17/10/14 14:12:13 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+17/10/14 14:12:13 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+17/10/14 14:12:13 INFO HiveMetaStore: Added admin role in metastore
+17/10/14 14:12:13 INFO HiveMetaStore: Added public role in metastore
+17/10/14 14:12:13 INFO HiveMetaStore: No user is added in admin role, since config is empty
+17/10/14 14:12:13 INFO HiveMetaStore: 0: get_all_databases
+17/10/14 14:12:13 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_all_databases	
+17/10/14 14:12:13 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+17/10/14 14:12:13 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+17/10/14 14:12:13 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 14:12:13 INFO SessionState: Created local directory: C:/Users/ARJUNB~1/AppData/Local/Temp/efda0e2c-d0c3-4d64-a5c1-9c907f2b8375_resources
+17/10/14 14:12:13 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/efda0e2c-d0c3-4d64-a5c1-9c907f2b8375
+17/10/14 14:12:13 INFO SessionState: Created local directory: C:/Users/Arjun Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/efda0e2c-d0c3-4d64-a5c1-9c907f2b8375
+17/10/14 14:12:13 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/efda0e2c-d0c3-4d64-a5c1-9c907f2b8375/_tmp_space.db
+17/10/14 14:12:13 INFO HiveMetaStore: 0: get_tables: db=default pat=.*
+17/10/14 14:12:13 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_tables: db=default pat=.*	
+17/10/14 14:12:14 INFO SparkContext: Starting job: collect at utils.scala:195
+17/10/14 14:12:14 INFO DAGScheduler: Got job 0 (collect at utils.scala:195) with 1 output partitions
+17/10/14 14:12:14 INFO DAGScheduler: Final stage: ResultStage 0 (collect at utils.scala:195)
+17/10/14 14:12:14 INFO DAGScheduler: Parents of final stage: List()
+17/10/14 14:12:14 INFO DAGScheduler: Missing parents: List()
+17/10/14 14:12:14 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at collect at utils.scala:195), which has no missing parents
+17/10/14 14:12:14 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 1968.0 B, free 1968.0 B)
+17/10/14 14:12:14 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 1230.0 B, free 3.1 KB)
+17/10/14 14:12:14 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:49573 (size: 1230.0 B, free: 511.1 MB)
+17/10/14 14:12:14 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1006
+17/10/14 14:12:14 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at collect at utils.scala:195)
+17/10/14 14:12:14 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+17/10/14 14:12:14 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, partition 0,PROCESS_LOCAL, 2348 bytes)
+17/10/14 14:12:14 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+17/10/14 14:12:14 INFO Executor: Fetching http://127.0.0.1:49540/jars/univocity-parsers-1.5.1.jar with timestamp 1508004722764
+17/10/14 14:12:14 INFO Utils: Fetching http://127.0.0.1:49540/jars/univocity-parsers-1.5.1.jar to C:\Users\Arjun Bansil\AppData\Local\Temp\spark-c4b3ef6e-7531-4800-beb9-18939fbd4efb\userFiles-d9a4b351-3071-4523-95c7-2f5f041276f8\fetchFileTemp811259539650770258.tmp
+17/10/14 14:12:14 INFO Executor: Adding file:/C:/Users/Arjun%20Bansil/AppData/Local/Temp/spark-c4b3ef6e-7531-4800-beb9-18939fbd4efb/userFiles-d9a4b351-3071-4523-95c7-2f5f041276f8/univocity-parsers-1.5.1.jar to class loader
+17/10/14 14:12:14 INFO Executor: Fetching http://127.0.0.1:49540/jars/commons-csv-1.1.jar with timestamp 1508004722745
+17/10/14 14:12:14 INFO Utils: Fetching http://127.0.0.1:49540/jars/commons-csv-1.1.jar to C:\Users\Arjun Bansil\AppData\Local\Temp\spark-c4b3ef6e-7531-4800-beb9-18939fbd4efb\userFiles-d9a4b351-3071-4523-95c7-2f5f041276f8\fetchFileTemp7836314054623303055.tmp
+17/10/14 14:12:14 INFO Executor: Adding file:/C:/Users/Arjun%20Bansil/AppData/Local/Temp/spark-c4b3ef6e-7531-4800-beb9-18939fbd4efb/userFiles-d9a4b351-3071-4523-95c7-2f5f041276f8/commons-csv-1.1.jar to class loader
+17/10/14 14:12:14 INFO Executor: Fetching http://127.0.0.1:49540/jars/sparklyr-1.6-2.10.jar with timestamp 1508004722778
+17/10/14 14:12:14 INFO Utils: Fetching http://127.0.0.1:49540/jars/sparklyr-1.6-2.10.jar to C:\Users\Arjun Bansil\AppData\Local\Temp\spark-c4b3ef6e-7531-4800-beb9-18939fbd4efb\userFiles-d9a4b351-3071-4523-95c7-2f5f041276f8\fetchFileTemp7683848682865071109.tmp
+17/10/14 14:12:14 INFO Executor: Adding file:/C:/Users/Arjun%20Bansil/AppData/Local/Temp/spark-c4b3ef6e-7531-4800-beb9-18939fbd4efb/userFiles-d9a4b351-3071-4523-95c7-2f5f041276f8/sparklyr-1.6-2.10.jar to class loader
+17/10/14 14:12:14 INFO Executor: Fetching http://127.0.0.1:49540/jars/spark-csv_2.11-1.3.0.jar with timestamp 1508004722646
+17/10/14 14:12:14 INFO Utils: Fetching http://127.0.0.1:49540/jars/spark-csv_2.11-1.3.0.jar to C:\Users\Arjun Bansil\AppData\Local\Temp\spark-c4b3ef6e-7531-4800-beb9-18939fbd4efb\userFiles-d9a4b351-3071-4523-95c7-2f5f041276f8\fetchFileTemp5944917048591714305.tmp
+17/10/14 14:12:14 INFO Executor: Adding file:/C:/Users/Arjun%20Bansil/AppData/Local/Temp/spark-c4b3ef6e-7531-4800-beb9-18939fbd4efb/userFiles-d9a4b351-3071-4523-95c7-2f5f041276f8/spark-csv_2.11-1.3.0.jar to class loader
+17/10/14 14:12:14 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 940 bytes result sent to driver
+17/10/14 14:12:14 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 416 ms on localhost (1/1)
+17/10/14 14:12:14 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+17/10/14 14:12:14 INFO DAGScheduler: ResultStage 0 (collect at utils.scala:195) finished in 0.426 s
+17/10/14 14:12:14 INFO DAGScheduler: Job 0 finished: collect at utils.scala:195, took 0.519967 s
+17/10/14 14:42:03 INFO BlockManagerInfo: Removed broadcast_0_piece0 on localhost:49573 in memory (size: 1230.0 B, free: 511.1 MB)
+17/10/14 14:42:03 INFO ContextCleaner: Cleaned accumulator 1
+17/10/14 16:06:46 INFO SparkContext: Running Spark version 1.6.2
+17/10/14 16:06:46 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/10/14 16:06:46 INFO SecurityManager: Changing view acls to: Arjun Bansil
+17/10/14 16:06:46 INFO SecurityManager: Changing modify acls to: Arjun Bansil
+17/10/14 16:06:46 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(Arjun Bansil); users with modify permissions: Set(Arjun Bansil)
+17/10/14 16:06:46 INFO Utils: Successfully started service 'sparkDriver' on port 49957.
+17/10/14 16:06:47 INFO Slf4jLogger: Slf4jLogger started
+17/10/14 16:06:47 INFO Remoting: Starting remoting
+17/10/14 16:06:47 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@127.0.0.1:49970]
+17/10/14 16:06:47 INFO Utils: Successfully started service 'sparkDriverActorSystem' on port 49970.
+17/10/14 16:06:47 INFO SparkEnv: Registering MapOutputTracker
+17/10/14 16:06:47 INFO SparkEnv: Registering BlockManagerMaster
+17/10/14 16:06:47 INFO DiskBlockManager: Created local directory at C:\Users\Arjun Bansil\AppData\Local\Temp\blockmgr-58cf6edc-c544-4496-b215-eca1242762e9
+17/10/14 16:06:47 INFO MemoryStore: MemoryStore started with capacity 511.1 MB
+17/10/14 16:06:47 INFO SparkEnv: Registering OutputCommitCoordinator
+17/10/14 16:06:47 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+17/10/14 16:06:47 INFO SparkUI: Started SparkUI at http://127.0.0.1:4040
+17/10/14 16:06:47 INFO HttpFileServer: HTTP File server directory is C:\Users\Arjun Bansil\AppData\Local\Temp\spark-f61a6c94-d534-4c22-ad56-00c1a5c9ae05\httpd-c14df6eb-1951-4787-b395-51f987a19e08
+17/10/14 16:06:47 INFO HttpServer: Starting HTTP Server
+17/10/14 16:06:47 INFO Utils: Successfully started service 'HTTP file server' on port 49975.
+17/10/14 16:06:47 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/spark-csv_2.11-1.3.0.jar at http://127.0.0.1:49975/jars/spark-csv_2.11-1.3.0.jar with timestamp 1508011607506
+17/10/14 16:06:47 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/commons-csv-1.1.jar at http://127.0.0.1:49975/jars/commons-csv-1.1.jar with timestamp 1508011607597
+17/10/14 16:06:47 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/univocity-parsers-1.5.1.jar at http://127.0.0.1:49975/jars/univocity-parsers-1.5.1.jar with timestamp 1508011607607
+17/10/14 16:06:47 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/sparklyr-1.6-2.10.jar at http://127.0.0.1:49975/jars/sparklyr-1.6-2.10.jar with timestamp 1508011607617
+17/10/14 16:06:47 INFO Executor: Starting executor ID driver on host localhost
+17/10/14 16:06:47 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 50008.
+17/10/14 16:06:47 INFO NettyBlockTransferService: Server created on 50008
+17/10/14 16:06:47 INFO BlockManagerMaster: Trying to register BlockManager
+17/10/14 16:06:47 INFO BlockManagerMasterEndpoint: Registering block manager localhost:50008 with 511.1 MB RAM, BlockManagerId(driver, localhost, 50008)
+17/10/14 16:06:47 INFO BlockManagerMaster: Registered BlockManager
+17/10/14 16:06:48 INFO HiveContext: Initializing execution hive, version 1.2.1
+17/10/14 16:06:48 INFO ClientWrapper: Inspected Hadoop version: 2.6.0
+17/10/14 16:06:48 INFO ClientWrapper: Loaded org.apache.hadoop.hive.shims.Hadoop23Shims for Hadoop version 2.6.0
+17/10/14 16:06:48 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+17/10/14 16:06:48 INFO ObjectStore: ObjectStore, initialize called
+17/10/14 16:06:48 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+17/10/14 16:06:48 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+17/10/14 16:06:48 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/14 16:06:49 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/14 16:06:51 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+17/10/14 16:06:52 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 16:06:52 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 16:06:54 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 16:06:54 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 16:06:54 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+17/10/14 16:06:54 INFO ObjectStore: Initialized ObjectStore
+17/10/14 16:06:54 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+17/10/14 16:06:54 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+17/10/14 16:06:55 INFO HiveMetaStore: Added admin role in metastore
+17/10/14 16:06:55 INFO HiveMetaStore: Added public role in metastore
+17/10/14 16:06:55 INFO HiveMetaStore: No user is added in admin role, since config is empty
+17/10/14 16:06:55 INFO HiveMetaStore: 0: get_all_databases
+17/10/14 16:06:55 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_all_databases	
+17/10/14 16:06:55 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+17/10/14 16:06:55 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+17/10/14 16:06:55 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 16:06:55 INFO SessionState: Created local directory: C:/Users/ARJUNB~1/AppData/Local/Temp/848d2bb7-9b5b-46c9-a952-21359241b36f_resources
+17/10/14 16:06:55 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/848d2bb7-9b5b-46c9-a952-21359241b36f
+17/10/14 16:06:55 INFO SessionState: Created local directory: C:/Users/Arjun Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/848d2bb7-9b5b-46c9-a952-21359241b36f
+17/10/14 16:06:55 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/848d2bb7-9b5b-46c9-a952-21359241b36f/_tmp_space.db
+17/10/14 16:06:55 INFO HiveContext: default warehouse location is C:\Users\Arjun Bansil\AppData\Local\rstudio\spark\Cache\spark-1.6.2-bin-hadoop2.6\tmp\hive
+17/10/14 16:06:55 INFO HiveContext: Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+17/10/14 16:06:55 INFO ClientWrapper: Inspected Hadoop version: 2.6.0
+17/10/14 16:06:55 INFO ClientWrapper: Loaded org.apache.hadoop.hive.shims.Hadoop23Shims for Hadoop version 2.6.0
+17/10/14 16:06:56 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+17/10/14 16:06:56 INFO ObjectStore: ObjectStore, initialize called
+17/10/14 16:06:56 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+17/10/14 16:06:56 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+17/10/14 16:06:56 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/14 16:06:56 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/14 16:06:56 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+17/10/14 16:06:57 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 16:06:57 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 16:06:57 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 16:06:57 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 16:06:58 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+17/10/14 16:06:58 INFO ObjectStore: Initialized ObjectStore
+17/10/14 16:06:58 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+17/10/14 16:06:58 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+17/10/14 16:06:58 INFO HiveMetaStore: Added admin role in metastore
+17/10/14 16:06:58 INFO HiveMetaStore: Added public role in metastore
+17/10/14 16:06:58 INFO HiveMetaStore: No user is added in admin role, since config is empty
+17/10/14 16:06:58 INFO HiveMetaStore: 0: get_all_databases
+17/10/14 16:06:58 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_all_databases	
+17/10/14 16:06:58 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+17/10/14 16:06:58 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+17/10/14 16:06:58 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/14 16:06:58 INFO SessionState: Created local directory: C:/Users/ARJUNB~1/AppData/Local/Temp/f31b907c-8d46-43b2-9701-bd90b75574aa_resources
+17/10/14 16:06:58 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/f31b907c-8d46-43b2-9701-bd90b75574aa
+17/10/14 16:06:58 INFO SessionState: Created local directory: C:/Users/Arjun Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/f31b907c-8d46-43b2-9701-bd90b75574aa
+17/10/14 16:06:58 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/f31b907c-8d46-43b2-9701-bd90b75574aa/_tmp_space.db
+17/10/14 16:07:03 INFO HiveMetaStore: 0: get_tables: db=default pat=.*
+17/10/14 16:07:03 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_tables: db=default pat=.*	
+17/10/14 16:07:03 INFO SparkContext: Starting job: collect at utils.scala:195
+17/10/14 16:07:03 INFO DAGScheduler: Got job 0 (collect at utils.scala:195) with 1 output partitions
+17/10/14 16:07:03 INFO DAGScheduler: Final stage: ResultStage 0 (collect at utils.scala:195)
+17/10/14 16:07:03 INFO DAGScheduler: Parents of final stage: List()
+17/10/14 16:07:03 INFO DAGScheduler: Missing parents: List()
+17/10/14 16:07:03 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at collect at utils.scala:195), which has no missing parents
+17/10/14 16:07:03 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 1968.0 B, free 1968.0 B)
+17/10/14 16:07:03 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 1230.0 B, free 3.1 KB)
+17/10/14 16:07:03 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:50008 (size: 1230.0 B, free: 511.1 MB)
+17/10/14 16:07:03 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1006
+17/10/14 16:07:03 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at collect at utils.scala:195)
+17/10/14 16:07:03 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+17/10/14 16:07:03 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, partition 0,PROCESS_LOCAL, 2348 bytes)
+17/10/14 16:07:03 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+17/10/14 16:07:03 INFO Executor: Fetching http://127.0.0.1:49975/jars/univocity-parsers-1.5.1.jar with timestamp 1508011607607
+17/10/14 16:07:03 INFO Utils: Fetching http://127.0.0.1:49975/jars/univocity-parsers-1.5.1.jar to C:\Users\Arjun Bansil\AppData\Local\Temp\spark-f61a6c94-d534-4c22-ad56-00c1a5c9ae05\userFiles-11062891-f4d3-48bb-8cdd-f4f3861d93b2\fetchFileTemp2998887808464054959.tmp
+17/10/14 16:07:03 INFO Executor: Adding file:/C:/Users/Arjun%20Bansil/AppData/Local/Temp/spark-f61a6c94-d534-4c22-ad56-00c1a5c9ae05/userFiles-11062891-f4d3-48bb-8cdd-f4f3861d93b2/univocity-parsers-1.5.1.jar to class loader
+17/10/14 16:07:03 INFO Executor: Fetching http://127.0.0.1:49975/jars/commons-csv-1.1.jar with timestamp 1508011607597
+17/10/14 16:07:03 INFO Utils: Fetching http://127.0.0.1:49975/jars/commons-csv-1.1.jar to C:\Users\Arjun Bansil\AppData\Local\Temp\spark-f61a6c94-d534-4c22-ad56-00c1a5c9ae05\userFiles-11062891-f4d3-48bb-8cdd-f4f3861d93b2\fetchFileTemp5162768047896675318.tmp
+17/10/14 16:07:04 INFO Executor: Adding file:/C:/Users/Arjun%20Bansil/AppData/Local/Temp/spark-f61a6c94-d534-4c22-ad56-00c1a5c9ae05/userFiles-11062891-f4d3-48bb-8cdd-f4f3861d93b2/commons-csv-1.1.jar to class loader
+17/10/14 16:07:04 INFO Executor: Fetching http://127.0.0.1:49975/jars/sparklyr-1.6-2.10.jar with timestamp 1508011607617
+17/10/14 16:07:04 INFO Utils: Fetching http://127.0.0.1:49975/jars/sparklyr-1.6-2.10.jar to C:\Users\Arjun Bansil\AppData\Local\Temp\spark-f61a6c94-d534-4c22-ad56-00c1a5c9ae05\userFiles-11062891-f4d3-48bb-8cdd-f4f3861d93b2\fetchFileTemp8802886694426815419.tmp
+17/10/14 16:07:04 INFO Executor: Adding file:/C:/Users/Arjun%20Bansil/AppData/Local/Temp/spark-f61a6c94-d534-4c22-ad56-00c1a5c9ae05/userFiles-11062891-f4d3-48bb-8cdd-f4f3861d93b2/sparklyr-1.6-2.10.jar to class loader
+17/10/14 16:07:04 INFO Executor: Fetching http://127.0.0.1:49975/jars/spark-csv_2.11-1.3.0.jar with timestamp 1508011607506
+17/10/14 16:07:04 INFO Utils: Fetching http://127.0.0.1:49975/jars/spark-csv_2.11-1.3.0.jar to C:\Users\Arjun Bansil\AppData\Local\Temp\spark-f61a6c94-d534-4c22-ad56-00c1a5c9ae05\userFiles-11062891-f4d3-48bb-8cdd-f4f3861d93b2\fetchFileTemp5312995906596126245.tmp
+17/10/14 16:07:04 INFO Executor: Adding file:/C:/Users/Arjun%20Bansil/AppData/Local/Temp/spark-f61a6c94-d534-4c22-ad56-00c1a5c9ae05/userFiles-11062891-f4d3-48bb-8cdd-f4f3861d93b2/spark-csv_2.11-1.3.0.jar to class loader
+17/10/14 16:07:04 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 940 bytes result sent to driver
+17/10/14 16:07:04 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 380 ms on localhost (1/1)
+17/10/14 16:07:04 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+17/10/14 16:07:04 INFO DAGScheduler: ResultStage 0 (collect at utils.scala:195) finished in 0.391 s
+17/10/14 16:07:04 INFO DAGScheduler: Job 0 finished: collect at utils.scala:195, took 0.488257 s
+17/10/14 16:36:47 INFO BlockManagerInfo: Removed broadcast_0_piece0 on localhost:50008 in memory (size: 1230.0 B, free: 511.1 MB)
+17/10/14 16:36:47 INFO ContextCleaner: Cleaned accumulator 1

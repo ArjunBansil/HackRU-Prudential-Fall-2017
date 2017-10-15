@@ -1,0 +1,161 @@
+17/10/15 01:18:28 INFO SparkContext: Invoking stop() from shutdown hook
+17/10/15 01:18:28 INFO SparkUI: Stopped Spark web UI at http://127.0.0.1:4040
+17/10/15 01:18:28 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/10/15 01:18:28 INFO MemoryStore: MemoryStore cleared
+17/10/15 01:18:28 INFO BlockManager: BlockManager stopped
+17/10/15 01:18:28 INFO BlockManagerMaster: BlockManagerMaster stopped
+17/10/15 01:18:28 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/10/15 01:18:28 INFO SparkContext: Successfully stopped SparkContext
+17/10/15 01:18:28 INFO ShutdownHookManager: Shutdown hook called
+17/10/15 01:18:28 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+17/10/15 01:18:28 INFO ShutdownHookManager: Deleting directory C:\Users\Arjun Bansil\AppData\Local\Temp\spark-f61a6c94-d534-4c22-ad56-00c1a5c9ae05\httpd-c14df6eb-1951-4787-b395-51f987a19e08
+17/10/15 01:18:28 INFO RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+17/10/15 01:18:28 INFO ShutdownHookManager: Deleting directory C:\Users\Arjun Bansil\AppData\Local\Temp\spark-f61a6c94-d534-4c22-ad56-00c1a5c9ae05
+17/10/15 01:18:28 INFO ShutdownHookManager: Deleting directory C:\Users\Arjun Bansil\AppData\Local\Temp\spark-513d5130-e589-46fc-b055-c6aa9e584de1
+17/10/15 01:18:28 INFO RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+17/10/15 01:18:28 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\Arjun Bansil\AppData\Local\Temp\spark-513d5130-e589-46fc-b055-c6aa9e584de1
+java.io.IOException: Failed to delete: C:\Users\Arjun Bansil\AppData\Local\Temp\spark-513d5130-e589-46fc-b055-c6aa9e584de1
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:929)
+	at org.apache.spark.util.ShutdownHookManager$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(ShutdownHookManager.scala:65)
+	at org.apache.spark.util.ShutdownHookManager$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(ShutdownHookManager.scala:62)
+	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+	at org.apache.spark.util.ShutdownHookManager$$anonfun$1.apply$mcV$sp(ShutdownHookManager.scala:62)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:267)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1801)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply$mcV$sp(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply(ShutdownHookManager.scala:239)
+	at scala.util.Try$.apply(Try.scala:161)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:218)
+	at org.apache.hadoop.util.ShutdownHookManager$1.run(ShutdownHookManager.java:54)
+17/10/15 01:20:59 INFO SparkContext: Running Spark version 1.6.2
+17/10/15 01:20:59 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/10/15 01:20:59 INFO SecurityManager: Changing view acls to: Arjun Bansil
+17/10/15 01:20:59 INFO SecurityManager: Changing modify acls to: Arjun Bansil
+17/10/15 01:20:59 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(Arjun Bansil); users with modify permissions: Set(Arjun Bansil)
+17/10/15 01:20:59 INFO Utils: Successfully started service 'sparkDriver' on port 51277.
+17/10/15 01:21:00 INFO Slf4jLogger: Slf4jLogger started
+17/10/15 01:21:00 INFO Remoting: Starting remoting
+17/10/15 01:21:00 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@127.0.0.1:51290]
+17/10/15 01:21:00 INFO Utils: Successfully started service 'sparkDriverActorSystem' on port 51290.
+17/10/15 01:21:00 INFO SparkEnv: Registering MapOutputTracker
+17/10/15 01:21:00 INFO SparkEnv: Registering BlockManagerMaster
+17/10/15 01:21:00 INFO DiskBlockManager: Created local directory at C:\Users\Arjun Bansil\AppData\Local\Temp\blockmgr-29fe4935-71d5-42da-b0dc-ef6a913cab92
+17/10/15 01:21:00 INFO MemoryStore: MemoryStore started with capacity 511.1 MB
+17/10/15 01:21:00 INFO SparkEnv: Registering OutputCommitCoordinator
+17/10/15 01:21:00 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+17/10/15 01:21:00 INFO SparkUI: Started SparkUI at http://127.0.0.1:4040
+17/10/15 01:21:00 INFO HttpFileServer: HTTP File server directory is C:\Users\Arjun Bansil\AppData\Local\Temp\spark-9a08ac4a-1915-4674-bfbd-9b3fe33da99c\httpd-733874c6-3504-41fe-a169-5b6415d6bb20
+17/10/15 01:21:00 INFO HttpServer: Starting HTTP Server
+17/10/15 01:21:00 INFO Utils: Successfully started service 'HTTP file server' on port 51295.
+17/10/15 01:21:00 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/spark-csv_2.11-1.3.0.jar at http://127.0.0.1:51295/jars/spark-csv_2.11-1.3.0.jar with timestamp 1508044860488
+17/10/15 01:21:00 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/commons-csv-1.1.jar at http://127.0.0.1:51295/jars/commons-csv-1.1.jar with timestamp 1508044860596
+17/10/15 01:21:00 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/univocity-parsers-1.5.1.jar at http://127.0.0.1:51295/jars/univocity-parsers-1.5.1.jar with timestamp 1508044860619
+17/10/15 01:21:00 INFO SparkContext: Added JAR file:/C:/Users/Arjun%20Bansil/Documents/R/win-library/3.4/sparklyr/java/sparklyr-1.6-2.10.jar at http://127.0.0.1:51295/jars/sparklyr-1.6-2.10.jar with timestamp 1508044860633
+17/10/15 01:21:00 INFO Executor: Starting executor ID driver on host localhost
+17/10/15 01:21:00 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 51328.
+17/10/15 01:21:00 INFO NettyBlockTransferService: Server created on 51328
+17/10/15 01:21:00 INFO BlockManagerMaster: Trying to register BlockManager
+17/10/15 01:21:00 INFO BlockManagerMasterEndpoint: Registering block manager localhost:51328 with 511.1 MB RAM, BlockManagerId(driver, localhost, 51328)
+17/10/15 01:21:00 INFO BlockManagerMaster: Registered BlockManager
+17/10/15 01:21:01 INFO HiveContext: Initializing execution hive, version 1.2.1
+17/10/15 01:21:01 INFO ClientWrapper: Inspected Hadoop version: 2.6.0
+17/10/15 01:21:01 INFO ClientWrapper: Loaded org.apache.hadoop.hive.shims.Hadoop23Shims for Hadoop version 2.6.0
+17/10/15 01:21:01 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+17/10/15 01:21:01 INFO ObjectStore: ObjectStore, initialize called
+17/10/15 01:21:01 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+17/10/15 01:21:01 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+17/10/15 01:21:01 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/15 01:21:02 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/15 01:21:04 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+17/10/15 01:21:05 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/15 01:21:05 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/15 01:21:07 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/15 01:21:07 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/15 01:21:07 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+17/10/15 01:21:07 INFO ObjectStore: Initialized ObjectStore
+17/10/15 01:21:07 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+17/10/15 01:21:07 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+17/10/15 01:21:08 INFO HiveMetaStore: Added admin role in metastore
+17/10/15 01:21:08 INFO HiveMetaStore: Added public role in metastore
+17/10/15 01:21:08 INFO HiveMetaStore: No user is added in admin role, since config is empty
+17/10/15 01:21:08 INFO HiveMetaStore: 0: get_all_databases
+17/10/15 01:21:08 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_all_databases	
+17/10/15 01:21:08 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+17/10/15 01:21:08 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+17/10/15 01:21:08 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/15 01:21:08 INFO SessionState: Created local directory: C:/Users/ARJUNB~1/AppData/Local/Temp/0658a597-7829-4447-a6ff-64d9475d55d7_resources
+17/10/15 01:21:08 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/0658a597-7829-4447-a6ff-64d9475d55d7
+17/10/15 01:21:08 INFO SessionState: Created local directory: C:/Users/Arjun Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/0658a597-7829-4447-a6ff-64d9475d55d7
+17/10/15 01:21:08 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/0658a597-7829-4447-a6ff-64d9475d55d7/_tmp_space.db
+17/10/15 01:21:08 INFO HiveContext: default warehouse location is C:\Users\Arjun Bansil\AppData\Local\rstudio\spark\Cache\spark-1.6.2-bin-hadoop2.6\tmp\hive
+17/10/15 01:21:08 INFO HiveContext: Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+17/10/15 01:21:08 INFO ClientWrapper: Inspected Hadoop version: 2.6.0
+17/10/15 01:21:08 INFO ClientWrapper: Loaded org.apache.hadoop.hive.shims.Hadoop23Shims for Hadoop version 2.6.0
+17/10/15 01:21:09 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+17/10/15 01:21:09 INFO ObjectStore: ObjectStore, initialize called
+17/10/15 01:21:09 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+17/10/15 01:21:09 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+17/10/15 01:21:09 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/15 01:21:09 WARN Connection: BoneCP specified but not present in CLASSPATH (or one of dependencies)
+17/10/15 01:21:10 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+17/10/15 01:21:10 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/15 01:21:10 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/15 01:21:11 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/15 01:21:11 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/15 01:21:11 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+17/10/15 01:21:11 INFO ObjectStore: Initialized ObjectStore
+17/10/15 01:21:11 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+17/10/15 01:21:11 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+17/10/15 01:21:11 INFO HiveMetaStore: Added admin role in metastore
+17/10/15 01:21:11 INFO HiveMetaStore: Added public role in metastore
+17/10/15 01:21:11 INFO HiveMetaStore: No user is added in admin role, since config is empty
+17/10/15 01:21:11 INFO HiveMetaStore: 0: get_all_databases
+17/10/15 01:21:11 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_all_databases	
+17/10/15 01:21:11 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+17/10/15 01:21:11 INFO audit: ugi=Arjun Bansil	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+17/10/15 01:21:11 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+17/10/15 01:21:11 INFO SessionState: Created local directory: C:/Users/ARJUNB~1/AppData/Local/Temp/bfc046ca-a416-4ad0-a29c-771e06f1dd45_resources
+17/10/15 01:21:11 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/bfc046ca-a416-4ad0-a29c-771e06f1dd45
+17/10/15 01:21:11 INFO SessionState: Created local directory: C:/Users/Arjun Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/bfc046ca-a416-4ad0-a29c-771e06f1dd45
+17/10/15 01:21:11 INFO SessionState: Created HDFS directory: C:/Users/Arjun%20Bansil/AppData/Local/rstudio/spark/Cache/spark-1.6.2-bin-hadoop2.6/tmp/hive/Arjun%20Bansil/bfc046ca-a416-4ad0-a29c-771e06f1dd45/_tmp_space.db
+17/10/15 02:13:22 INFO SparkContext: Invoking stop() from shutdown hook
+17/10/15 02:13:22 INFO SparkUI: Stopped Spark web UI at http://127.0.0.1:4040
+17/10/15 02:13:22 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/10/15 02:13:22 INFO MemoryStore: MemoryStore cleared
+17/10/15 02:13:22 INFO BlockManager: BlockManager stopped
+17/10/15 02:13:22 INFO BlockManagerMaster: BlockManagerMaster stopped
+17/10/15 02:13:22 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/10/15 02:13:22 INFO SparkContext: Successfully stopped SparkContext
+17/10/15 02:13:22 INFO ShutdownHookManager: Shutdown hook called
+17/10/15 02:13:22 INFO ShutdownHookManager: Deleting directory C:\Users\Arjun Bansil\AppData\Local\Temp\spark-fbd2d478-410e-48c7-967c-7769f9e5e7df
+17/10/15 02:13:22 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+17/10/15 02:13:22 INFO RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+17/10/15 02:13:22 INFO RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
+17/10/15 02:13:22 ERROR ShutdownHookManager: Exception while deleting Spark temp dir: C:\Users\Arjun Bansil\AppData\Local\Temp\spark-fbd2d478-410e-48c7-967c-7769f9e5e7df
+java.io.IOException: Failed to delete: C:\Users\Arjun Bansil\AppData\Local\Temp\spark-fbd2d478-410e-48c7-967c-7769f9e5e7df
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:929)
+	at org.apache.spark.util.ShutdownHookManager$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(ShutdownHookManager.scala:65)
+	at org.apache.spark.util.ShutdownHookManager$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(ShutdownHookManager.scala:62)
+	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+	at org.apache.spark.util.ShutdownHookManager$$anonfun$1.apply$mcV$sp(ShutdownHookManager.scala:62)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:267)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1801)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply$mcV$sp(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply(ShutdownHookManager.scala:239)
+	at scala.util.Try$.apply(Try.scala:161)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:218)
+	at org.apache.hadoop.util.ShutdownHookManager$1.run(ShutdownHookManager.java:54)
+17/10/15 02:13:22 INFO ShutdownHookManager: Deleting directory C:\Users\Arjun Bansil\AppData\Local\Temp\spark-9a08ac4a-1915-4674-bfbd-9b3fe33da99c\httpd-733874c6-3504-41fe-a169-5b6415d6bb20
+17/10/15 02:13:22 INFO ShutdownHookManager: Deleting directory C:\Users\Arjun Bansil\AppData\Local\Temp\spark-9a08ac4a-1915-4674-bfbd-9b3fe33da99c
